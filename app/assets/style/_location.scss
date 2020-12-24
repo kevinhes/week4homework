@@ -1,0 +1,82 @@
+.banner{
+    background-image: url(../images/qa.png);
+    height: 304px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .banner-title{
+        width: 1110px;
+        font-size: 64px;
+        line-height: 90px;
+        display: flex;
+        h1{
+            margin-right: 24px;
+        }
+    }
+}
+.location{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 304px;
+    label{
+        font-size: 24px;
+        line-height: 33px;
+        margin-right: 22px;
+    }
+    select{
+        width: 324px;
+        height: 45px;
+        margin-bottom: 32px;
+    }
+}
+.map{
+    max-width: 445px;
+    border: 1px solid #00000020;
+    padding-bottom: 8px;
+    .box{
+        width: 445px;
+        height: 224px;
+        overflow: hidden
+    }
+    img{
+        max-width: 100%;
+        display: block;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+        border-bottom: 1px solid #00000020;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        margin-bottom: 16px;
+    }
+}
+.map-information{
+    display: flex;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    img{
+        margin-right: 12px;
+    }
+}
+.map-store{
+    display: flex;
+    justify-content: space-between;
+}
+.map-location{
+    width: 635px;
+    height: 422px;
+    img{
+        width: 635px;
+        height: 422px;
+        display: block;
+    }
+}

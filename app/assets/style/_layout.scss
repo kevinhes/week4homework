@@ -1,0 +1,120 @@
+.header{
+    background: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 29.43px;
+    padding-left: 88px;
+    padding-right: 88px;
+    h2{
+        a{
+            background-image: url(../images/logo.png);
+            width: 80px;
+            height: 48.57px;
+            display: block;
+            float: left;
+            text-indent: 101%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+    }
+.logo{
+    img{
+        display: block;
+    }
+}
+.nav{
+    display: flex;
+    a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+.footer{
+    background: $primary;
+    padding-top: 48px;
+}
+.footer-inner{
+    display: flex;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.footer-nav-item{
+    display: flex;
+    margin-bottom: 36px;
+    a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+        padding-right: 48px;
+    }
+}
+.how-to-contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    img{
+        display: block;
+    }
+}
+.phone-icon{
+    width: 38px;
+    margin-right: 20px;
+}
+.mail-icon{
+    width: 44px;
+    margin-right: 14px;
+}
+.sns-footer-icon{
+    display: flex;
+    li{
+        padding-left: 32px;
+    }
+}
+.footer-privacy{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 28.43px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 38px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        color: white;
+    }
+}
+.policy{
+    display: flex;
+    p{
+        color: white;
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 62px;
+    }
+}
